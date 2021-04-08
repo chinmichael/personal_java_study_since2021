@@ -28,7 +28,7 @@ import java.util.Scanner;
                : checked예외에서 unchecked예외로 전환하기 위해(컴퓨터 환경 변화로 checked예외지만 처리가 안될 경우 무의미한 try-catch남발 가능)
 
 */
-public class study_210407 {
+public class Study_210407 {
     public static void main(String args[]) {
         System.out.println("1 : newExceptionTest");
         System.out.println("2 : reThrowsMethod1");
@@ -36,7 +36,7 @@ public class study_210407 {
         System.out.print("실행할 메소드 번호를 입력 : ");
         Scanner sc = new Scanner(System.in);
 
-        study_210407 study = new study_210407();
+        Study_210407 study = new Study_210407();
 
         switch (sc.nextInt()) {
             case 1:

@@ -15,7 +15,7 @@ ex java API문서의 wait메서드는 throws InterruptedException이 되어 있�
 >>  메서드 자체에서 발생하는 예외가 처리가능한 경우는 try-catch를 사용
     호출한 메서드에서 넘겨받을 값 등을 다시 처리해 해결해야 하는 경우 throws로 넘김
  */
-public class study_210406 {
+public class Study_210406 {
 
     /*public static void main(String[] args) {
         method1(); // 같은 클래스 내 static 멤버이므로

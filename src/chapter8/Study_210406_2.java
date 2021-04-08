@@ -26,7 +26,7 @@ package chapter8;
 
    ps. 괄호 안에 두 문장 이상을 넣을 경우 ;로 구분
  */
-public class study_210406_2 {
+public class Study_210406_2 {
     /*public static void main(String args[]) {
         study_210406_2.method1();
         System.out.println("method1을 마치고 main으로 복귀");

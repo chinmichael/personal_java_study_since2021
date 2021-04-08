@@ -44,7 +44,7 @@ getMessage() : 발생한 예외 클래스 인스턴스의 저장된 메시지 ge
 
 */
 
-public class study_210405 {
+public class Study_210405 {
     /*public static void main(String args[]) {
         int number = 100;
         int result = 0;
