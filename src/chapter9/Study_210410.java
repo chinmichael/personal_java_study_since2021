@@ -19,8 +19,8 @@ String replaceFirst(String regex, String new) : 전체가 아닌 첫번째 지�
 String[] split(String regex) : 문자열을 지정된 분리자(정규식이나 문자열)로 나눠 문자열배열로 나눠 담음
 String[] split(String regex, int limit) : int limit는 얼마나 되는 문자열배열 크기로 나눠 담을지 (3개로 쪼개지는데 2개면 1개 1,1로 2개로 담김)
 
-String substring(int begin) : begin(포함)지점에서부터 끝까지 문자열 반환
-String substring(int begin, int end) : begin지점(포함)에서 end(비포함)까지 문자열 반환
+String substring(int begin) : begin(포함)지점에서부터 끝까지 문자열 반환 / begin은 0부터 (string은 문자 배열)
+String substring(int begin, int end) : begin지점(포함)에서 end(비포함)까지 문자열 반환 / end 위치는 비포함 중요
 
 String trim() : 문자열 양단의 공백(중간은 냅둠)을 제거함
 
