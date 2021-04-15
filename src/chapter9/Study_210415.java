@@ -41,6 +41,12 @@ StringBuffer    : 내부적으로 문자열 편집을 위한 buffer 가짐 > 인
 
                 : StringBuffer reverse() : 문자열 거꾸로 배열시켜림
 
+
+StringBuilder : StringBuffer는 멀티쓰레드에 안전하게 동기화 됨(thread safe) > 멀티쓰레드 프로그램이 아닐 경우 동기화는 성능 저하
+                (후에 13Chapter 공부시 참조)
+
+              : StringBuffer에서 쓰레드 동기화만 뺀 것이 StringBuilder >> 나머지 기능은 완전히 똑같다 (초기화 파트만 바꿔주면 됨)
+
  */
 
 public class Study_210415 {
