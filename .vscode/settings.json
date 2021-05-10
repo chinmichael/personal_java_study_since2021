@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "src/chapter10",
-        "src/chapter12"
+        "src/chapter12",
+        "src/chapter14",
     ]
 }
