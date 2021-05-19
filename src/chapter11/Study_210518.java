@@ -1,4 +1,4 @@
-//package chpater11
+//package chpater11;
 
 /*  LinkedList
 
@@ -55,7 +55,7 @@
     - LinkedList() / LinkedList(Collection c)
 
 
-    >> Queue(Stack과 반대의 FILO:후입선출 : 양쪽이 뚫린 통로구조 한쪽은 input(offer)만 반대쪽은 out(poll)만 가능한 구조) I/F 구현 메서드
+    >> Queue(Stack과 반대의 FIFO:선입선출 : 양쪽이 뚫린 파이프 구조 한쪽은 input(offer)만 반대쪽은 out(poll)만 가능한 구조) I/F 구현 메서드
 
     - T element() : 첫번째 요소 반환
 
